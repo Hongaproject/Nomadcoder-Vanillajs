@@ -29,7 +29,7 @@ function todoSubmit(event) {
     event.preventDefault();
     const newTodo = todoInput.value;
     todoInput.value = "";
-    todos.push(newTodo);
+    toDos.push(newTodo);
     painToDo(newTodo);
     saveToDos();
 }
